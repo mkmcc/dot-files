@@ -47,12 +47,22 @@ brew install xpdf
 
 # Install other useful binaries.
 brew install ack
-#brew install exiv2
 brew install git
 brew install git-lfs
 brew install imagemagick --with-webp
 brew install lua
 brew install lynx
+
+# Install fonts
+brew  tap caskroom/fonts
+brew cask install font-inconsolata
+brew cask install font-architects-daughter
+brew cask install font-charter
+brew cask install font-eb-garamond
+brew cask install font-eb-neuton
+brew cask install font-neuton
+brew cask install font-gentium-plus
+brew cask install font-sorts-mill-goudy
 
 # Remove outdated versions from the cellar.
 brew cleanup
